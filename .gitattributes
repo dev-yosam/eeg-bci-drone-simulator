@@ -1,0 +1,21 @@
+# Detect text automatically; retain binary assets unchanged.
+* text=auto
+*.cs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.fbx binary
+*.blend binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ttf binary
+*.otf binary
